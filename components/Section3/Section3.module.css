@@ -1,20 +1,18 @@
 .containar{
     /* border: 1px solid black; */
+    background-color: #043873;
     height: 100vh;
     display: flex;
     padding: 50px 60px;
     gap: 20px;
-    background: #043873;
-    background-image: url(/images/bg.png)
-    
     }
     .one{
         /* border: 1px solid black; */
         height: 100%;
         width: 50%;
         padding: 20px;
-        align-content: center;
         color: whitesmoke;
+        align-content: center;
     
     }
     .head1{

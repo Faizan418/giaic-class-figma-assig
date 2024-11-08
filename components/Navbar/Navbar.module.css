@@ -7,6 +7,8 @@
     background-color: #043873;
     padding: 30px;
     align-items: center;
+    border: 1px solid black;
+
 }
 
 .img_div{
@@ -28,7 +30,11 @@ align-items: center;
     /* border: 1px solid black; */
     color: whitesmoke;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
+}
+.lili:hover{
+    color: #000;
+    transition: 0.5s;
 }
 .btn_div{
     display: flex;
@@ -38,19 +44,29 @@ align-items: center;
 
 }
 .btn1{
-    background-color: #FF5722;
-    color: white;
+    background-color: yellow;
+    color: rgb(72, 72, 255);
     padding: 10px 26px;
     border-radius: 5px;
     /* font-size: large; */
+    font-size: 15px;
     font-weight: 600;
 }
 .btn2{
     background-color: rgb(72, 72, 255);
-    padding: 10px 28px;
+    padding: 10px 26px;
     border-radius: 5px;
     /* font-size: large; */
+    font-size: 15px;
     font-weight: 600;
+
+}
+.btn1:hover{
+    color: #000;
+
+}
+.btn2:hover{
+    color: #000;
 
 }
 .hamburger {
@@ -62,12 +78,14 @@ align-items: center;
   }
  
 @media(max-width: 1130px){
-    .ul_div{
-        display: none;
-    }
+    .ul_div {
+        display: none; 
+      }
+ 
     .hamburger{
-        display: flex;
+        display: block;
     }
+
 }
 @media(max-width: 760px){
     .btn_div{
