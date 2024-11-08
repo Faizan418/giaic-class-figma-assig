@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import styles from '../Navbar/Navbar.module.css';
 import Link from 'next/link';
 
@@ -8,7 +8,7 @@ function Navbar() {
     <div className={styles.container}>
       <nav className={styles.navbar}>
         <div className={styles.img_div}>
-          <img src="/images/logo.png" alt="logo" height={30} width={30} />
+          <Image src="/images/logo.png" alt="logo" height={30} width={30} />
           <p>whitepace</p>
         </div>
 

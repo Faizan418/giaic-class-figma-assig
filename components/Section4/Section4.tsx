@@ -13,7 +13,7 @@ function Section4() {
 <div className={styles.one}>
     <h1 className={styles.head1}>Costomise it to<br /> your needs</h1>
     <p className={styles.pera1}>Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
-    <button className={styles.btn}>Let's Go</button>
+    <button className={styles.btn}>Let&rsquo;s Go</button>
 </div>
 
 
